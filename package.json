@@ -21,6 +21,7 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.5",
     "styled-components": "^6.1.11",
+    "svgo": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -49,7 +50,15 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.28.6",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.28.6",
+    "@babel/plugin-transform-numeric-separator": "^7.28.6",
+    "@babel/plugin-transform-optional-chaining": "^7.28.6",
+    "@babel/plugin-transform-private-methods": "^7.28.6",
+    "@eslint/config-array": "^0.23.3",
+    "@eslint/object-schema": "^3.0.3",
     "autoprefixer": "^10.4.19",
+    "eslint": "^10.0.3",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4"
   }
